@@ -57,9 +57,9 @@ function checkProposition(){
         dernierResultat.textContent = "C'est faux...try again"
         dernierResultat.style.backgroundColor = '#ac6060';
         if (playerGuess < randomNumber){
-            plusOuMoins.textContent = 'Le nombre saisi est trop petit...';
+            plusOuMoins.textContent = 'Indice : Le nombre saisi est trop petit...';
         } else if(playerGuess > randomNumber){
-            plusOuMoins.textContent = 'Le nombre saisi est trop grand...'
+            plusOuMoins.textContent = 'Indice : Le nombre saisi est trop grand...'
         }
     }
 
