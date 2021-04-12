@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Zilla+Slab+Highlight&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Guess the number Game</title>
+</head>
+
+<body>
+
+  <div class="container border border-success">
+    <div class="row">
+      <div class="col-12">
+        <div class="row d-flex justify-content-center">
+          <img class="img-fluid mt-5 mt-lg-1 col-8" src="Image/logoGame.png" alt="logo d'un cerveau avec le titre guess the number">
+        </div>
+
+        <p class='rules'> Vous jouez contre l'ordinateur. Essayez de deviner un nombre entre 1 et 100. Vous avez 10
+          coups pour trouver la bonne réponse !</p>
+
+        <div class="form mt-4 ">
+          <div class="row">
+            <div class="d-flex col-12 justify-content-center mt-3"><label class="mr-3" for="guessField">Devine le nombre
+                :</label>
+              <input type="text" id="guessField" class="guessField ">
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <input type="submit" value="C'est mon dernier mot" class="buttonSubmit col-5 btn btn-light mt-4">
+          </div>
+        </div>
+
+        <div class="resultParagraphes mt-5">
+          <p class="guesses"></p>
+          <p class="dernierResultat"></p>
+          <p class="plusOuMoins"></p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="row d-flex justify-content-center mt-3">
+        <p class="resetField col-8 btn"></p>
+      </div>
+    </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

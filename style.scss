@@ -1,0 +1,128 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    background-image: url("Image/brickwall.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4vw;
+  }
+
+  // .lastResult {
+  //   color: white;
+  //   padding: 3px;
+  // }
+  
+  .container{
+    background-color: #333333;
+    padding: 3%;
+    height: 100vh;
+  }
+
+  .rules{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 3vw;
+  }
+
+  label{
+    justify-content: end;
+    font-weight: bold;
+  }
+
+  .guessField{
+    width: 30%;
+  }
+
+  .guesses{
+    font-size: 2.5vw;
+  }
+
+  .buttonSubmit{
+    font-size: 2.5vw;
+  }
+
+.dernierResultat{
+  padding: 3px;
+  text-align: center;
+  font-size: 2.5vw;
+}
+.plusOuMoins{
+  font-size: 2.5vw ;
+}
+
+.resetButtonStyle{
+  
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 44, 44);
+  border: none;
+  padding: 2%;
+  font-size: 2.4vw ;
+}
+
+@media only screen and (min-width : 1000px){
+  body{
+    font-size: 1.8vw;
+  }
+  .resetButtonStyle{
+    font-size: 1.9vw;
+  }
+  .guesses{
+    font-size: 1.8vw;
+  }
+  .dernierResultat{
+    font-size: 1.8vw;
+  }
+  .plusOuMoins{
+    font-size: 1.8vw;
+  }
+  .rules{
+    font-size : 1.7vw;
+  }
+}
+
+@media only screen and (min-width : 1200px){
+  body{
+    font-size: 1.4vw;
+  }
+  .resetButtonStyle{
+    font-size: 1.5vw;
+  }
+  .guesses{
+    font-size: 1.5vw;
+  }
+  .dernierResultat{
+    font-size: 1.5vw;
+  }
+  .plusOuMoins{
+    font-size: 1.5vw;
+  }
+  .rules{
+    font-size : 1.4vw;
+  }
+}
+
+@media only screen and (min-width : 1400px){
+  body{
+    font-size: 1.2vw;
+  }
+  .resetButtonStyle{
+    font-size: 1.4vw;
+  }
+  .guesses{
+    font-size: 1.4vw;
+  }
+  .dernierResultat{
+    font-size: 1.4vw;
+  }
+  .plusOuMoins{
+    font-size: 1.4vw;
+  }
+  .rules{
+    font-size : 1.4vw;
+  }
+  .buttonSubmit{
+    font-size: 1.3vw;
+  }
+}
