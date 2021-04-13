@@ -2,7 +2,7 @@
 
 // Etape 1a : Générer un random number. Math.random = génére un chiffre random entre 0 et 1. On le multiplie par 100 et lui on ajoute 1 pour que ce chiffre random soit entre 1 et 100. On passe le tout à la méthode Math.floor qui permet de renvoyer le chiffre entier inférieur au résultat random.
 let randomNumber = Math.floor(Math.random()*200) + 1;
-console.log(randomNumber)
+
 
 // Etape 1b : Déclarer trois variables pour stocker une réfrence aux trois paragraphes que l'on utilisera pour insérer des informations.
 // Ici on utilise la méthode querySelector('.nomDeLaClasse')
